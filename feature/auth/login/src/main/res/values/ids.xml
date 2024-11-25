@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item name="feature_auth_login_title" type="id"/>
+  <item name="feature_auth_login_error_message" type="id"/>
+  <item name="feature_auth_login_user" type="id"/>
+  <item name="feature_auth_login_password" type="id"/>
+  <item name="feature_auth_login_submit" type="id"/>
+  <item name="feature_auth_login_forgot_password" type="id"/>
+  <item name="feature_auth_login_registration" type="id"/>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="feature_auth_login_title">Private Area</string>
+  <string name="feature_auth_login_generic_error">Something went wrong, contact support if the error persists</string>
+  <string name="feature_auth_login_field_generic_error">Generic error</string>
+
+  <string name="feature_auth_login_username_field_label">Username</string>
+  <string name="feature_auth_login_username_field_supporting_text">Enter the "username" you used to register</string>
+  <string name="feature_auth_login_username_field_placeholder">Enter your username</string>
+  <string name="feature_auth_login_user_field_error_prefix">Error: %1$s</string>
+  <string name="feature_auth_login_user_field_clear_cd">Clears the value entered in the %1$s field</string>
+  <string name="feature_auth_login_user_field_error_empty">You must enter a username</string>
+
+  <string name="feature_auth_login_password_field_label">Password</string>
+  <string name="feature_auth_login_password_field_supporting_text">Enter the password you used to register</string>
+  <string name="feature_auth_login_password_field_placeholder">6+ characters</string>
+  <string name="feature_auth_login_password_field_error_prefix">Error: %1$s</string>
+  <string name="feature_auth_login_password_field_clear_cd">Clears the value entered in the password field</string>
+  <string name="feature_auth_login_password_field_show_cd">Show password</string>
+  <string name="feature_auth_login_password_field_hide_cd">Hide password</string>
+  <string name="feature_auth_login_password_field_error_length">The password must be at least 5 characters long</string>
+  <string name="feature_auth_login_password_field_error_empty">The password cannot be empty</string>
+
+  <string name="feature_auth_login_submit">LOGIN</string>
+  <string name="feature_auth_login_submit_semantic">Perform login</string>
+
+</resources>

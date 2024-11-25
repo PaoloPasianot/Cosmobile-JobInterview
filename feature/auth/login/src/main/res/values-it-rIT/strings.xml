@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="feature_auth_login_title">Private Area</string>
+  <string name="feature_auth_login_generic_error">Qualcosa è andato storto, contatta l\'assistenza se l\'errore persiste</string>
+  <string name="feature_auth_login_field_generic_error">Errore generico</string>
+
+  <string name="feature_auth_login_username_field_label">Username</string>
+  <string name="feature_auth_login_username_field_supporting_text">Inserisci il tuo \"username\" che hai usato per registrarti</string>
+  <string name="feature_auth_login_username_field_placeholder">Inserisci il tuo nome utente</string>
+  <string name="feature_auth_login_user_field_error_prefix">Error: %1$s</string>
+  <string name="feature_auth_login_user_field_clear_cd">Pulisce il valore inserito nel campo %1$s</string>
+  <string name="feature_auth_login_user_field_error_empty">Devi inserire un nome utente</string>
+
+  <string name="feature_auth_login_password_field_label">Password</string>
+  <string name="feature_auth_login_password_field_supporting_text">Inserisci la tua password che hai usato per registrarti</string>
+  <string name="feature_auth_login_password_field_placeholder">6+ caratteri</string>
+  <string name="feature_auth_login_password_field_error_prefix">Error: %1$s</string>
+  <string name="feature_auth_login_password_field_clear_cd">Pulisce il valore inserito nel campo password</string>
+  <string name="feature_auth_login_password_field_show_cd">Mostra la password</string>
+  <string name="feature_auth_login_password_field_hide_cd">Nascondi la password</string>
+  <string name="feature_auth_login_password_field_error_length">La password deve contenere almeno 5 caratteri</string>
+  <string name="feature_auth_login_password_field_error_empty">La password non può essere vuota</string>
+
+  <string name="feature_auth_login_submit">ACCEDI</string>
+  <string name="feature_auth_login_submit_semantic">Esegui il login</string>
+</resources>

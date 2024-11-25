@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="core_data_generic_error">Errore non gestito dal sistema</string>
+
+
+  <string name="core_data_no_data_web_content">Al momento del download non è stato possibile recuperare il contenuto della chiamata</string>
+</resources>

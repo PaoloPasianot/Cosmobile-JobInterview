@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Welcome -->
+  <string name="feature_dashboard_welcome_title">Il team le da il benvenuto.\nSiamo lieti che abbia scelto le nostre stazioni meteo.</string>
+
+  <!-- Archivio -->
+  <string name="feature_dashboard_archive_title">Archiviazione</string>
+  <string name="feature_dashboard_archive_message">Nel tempo i dati provenienti dalle stazioni meteo potrebbero essere parecchi.\nTi consigliamo, quindi, di assicurarti di avere almeno 10GB liberi.\nInoltre è predisposto un sistema di backup proprietario per il passaggio delle informazioni tra i dispositivi</string>
+
+</resources>

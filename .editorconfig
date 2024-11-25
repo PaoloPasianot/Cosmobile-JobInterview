@@ -1,0 +1,18 @@
+# https://editorconfig.org/
+# This configuration is used by ktlint when spotless invokes it
+root = true
+
+[*]
+# Most of the standard properties are supported
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+max_line_length = 100
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{kt,kts}]
+ij_kotlin_allow_trailing_comma = true
+ij_kotlin_allow_trailing_comma_on_call_site = true
+ktlint_function_naming_ignore_when_annotated_with = Composable, Test
