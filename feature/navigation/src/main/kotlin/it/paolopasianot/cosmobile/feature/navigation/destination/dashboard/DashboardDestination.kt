@@ -24,8 +24,7 @@ internal fun NavGraphBuilder.dashboardScreen(
       modifier = modifier,
       state = state,
       event = event,
-      effects = effect,
-      viewModel = viewModel
+      effects = effect
     )
   }
 }
