@@ -3,11 +3,11 @@ package it.paolopasianot.cosmobile.feature.dashboard.utility
 object OrderSizes {
 
   private val sizeTypes = listOf(
-    SizeType("\\d+".toRegex(), "Numbers", order = 1),
-    SizeType("[XSML]+".toRegex(), "Classic", order = 2),
-    SizeType("IT \\d+".toRegex(), "Italian", order = 3),
-    SizeType("FR \\d+".toRegex(), "French", order = 4),
-    SizeType("UK \\d+".toRegex(), "United Kingdom", order = 5),
+    SizeType(matchPattern = "\\d+".toRegex(), order = 1),
+    SizeType(matchPattern = "[XSML]+".toRegex(), order = 2),
+    SizeType(matchPattern = "IT \\d+".toRegex(), order = 3),
+    SizeType(matchPattern = "FR \\d+".toRegex(), order = 4),
+    SizeType(matchPattern = "UK \\d+".toRegex(), order = 5),
   )
 
   fun order(unorderedSizes: List<String>): List<String> {
@@ -27,7 +27,6 @@ object OrderSizes {
 
   internal data class SizeType(
     val matchPattern: Regex,
-    val label: String,
     val value: String = "",
     val order: Int = 0,
   )
